@@ -13,6 +13,10 @@ public class Doctor extends Person {
         this.titulo = titulo;
         this.expYear = expYear;
     }
+
+    public Doctor() {
+        
+    }
     public String getTitulo() {
         return titulo;
     }
