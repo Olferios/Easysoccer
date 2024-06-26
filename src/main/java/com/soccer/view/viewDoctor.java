@@ -8,7 +8,7 @@ import com.soccer.model.entity.Doctor;
 
 public class viewDoctor {
        public static Controller controlador;
-       public void start() {
+       public void startDoctor() {
               Scanner scanner = new Scanner(System.in);
 
        while (true) {
@@ -127,11 +127,12 @@ public class viewDoctor {
                      }
                      break;
                      case 6:
-                     scanner.close();
-                            break;
+                     System.out.println("Salir");
+                     return;
                      default:
-                            System.out.println("Opción no válida");
-                            break;
+                     scanner.close();
+                            
+                     break;
        }
        }
        }

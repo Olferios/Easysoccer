@@ -8,7 +8,7 @@ import com.soccer.model.entity.Team;
 
 public class viewPlayer {
        public static Controller controlador;
-       public void start() {
+       public void startPlayer() {
               Scanner scanner = new Scanner(System.in);
 
        while (true) {
@@ -128,11 +128,12 @@ public class viewPlayer {
                      }
                      break;
                      case 6:
-                     scanner.close();
-                            break;
+                     System.out.println("Salir");
+                     return;
                      default:
-                            System.out.println("Opción no válida");
-                            break;
+                     scanner.close();
+                            
+                     break;
        }
        }
        }

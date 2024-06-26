@@ -9,7 +9,7 @@ import com.soccer.model.entity.Team;
 
 public class viewCoach {
        public static Controller controlador;
-       public void start() {
+       public void startCoach() {
               Scanner scanner = new Scanner(System.in);
 
        while (true) {
