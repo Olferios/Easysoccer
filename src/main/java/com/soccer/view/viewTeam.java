@@ -99,8 +99,8 @@ public class viewTeam {
                          System.out.println("Ingrese código jugador:");
                          String codjugador = scanner.nextLine();
                          
-                         if (controlador.jugadores.containsKey(codjugador)) {
-                             Player jugador = controlador.jugadores.get(codjugador);
+                         if (viewPlayer.controlador.jugadores.containsKey(codjugador)) {
+                             Player jugador = viewPlayer.controlador.jugadores.get(codjugador);
                              Team equipo1 = controlador.equipos.get(idteamjug); 
                              equipo1.getLstJugadores().add(jugador);
                              System.out.println("Jugador agregado");
